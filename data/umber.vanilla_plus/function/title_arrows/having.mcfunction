@@ -2,7 +2,7 @@
 # タイトルの表示
 
 # 処理
-    # スコアの初期化
+    # スコアを初期化
         scoreboard players set @s umber.ArrowCount 0
         scoreboard players set @s umber.ArrowCountTipped 0
         scoreboard players set @s umber.ArrowCountSpectral 0

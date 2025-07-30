@@ -1,4 +1,6 @@
 {
   "values": [
+    "umber.mob_customize:load",
+    "umber.vanilla_plus:load"
   ]
 }

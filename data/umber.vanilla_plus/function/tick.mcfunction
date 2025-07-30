@@ -16,4 +16,4 @@
             execute as @a[tag=umber.ArrowCounts] run function umber.vanilla_plus:title_arrows/having
 
         # 特定のアイテムを所持しておらず、タグ(umber.ArrowCounts)のあるプレイヤーがいるとき
-            execute as @a if entity @s[nbt=!{SelectedItem:{id:"minecraft:bow"}}] if entity @s[nbt=!{Inventory:[{Slot:-106b, id:"minecraft:bow"}]} if entity @s[nbt=!{SelectedItem:{id:"minecraft:crossbow"}}] if entity @s[nbt=!{Inventory:[{Slot:-106b, id:"minecraft:crossbow"}]}] if entity @s[tag=umber.ArrowCounts] run function umber.vanilla_plus:title_arrows/not_having
+            execute as @a if entity @s[nbt=!{SelectedItem:{id:"minecraft:bow"}}] if entity @s[nbt=!{Inventory:[{Slot:-106b, id:"minecraft:bow"}]}] if entity @s[nbt=!{SelectedItem:{id:"minecraft:crossbow"}}] if entity @s[nbt=!{Inventory:[{Slot:-106b, id:"minecraft:crossbow"}]}] if entity @s[tag=umber.ArrowCounts] run function umber.vanilla_plus:title_arrows/not_having

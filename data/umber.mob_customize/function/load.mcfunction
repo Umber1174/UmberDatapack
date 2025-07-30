@@ -11,7 +11,7 @@
 
     # basicフォルダ
         # 全モブからタグ(umber.basic)を削除
-            tag @e[tag=basic] remove basic
+            tag @e[tag=umber.basic] remove umber.basic
 
         # スコア(umber.random_health)を作成
             scoreboard objectives add umber.random_health dummy

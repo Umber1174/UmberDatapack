@@ -10,7 +10,7 @@
 
     # インベントリ内にある各種矢の数を一時スコアに保存
         execute store result score @s umber.ArrowCount run clear @s minecraft:arrow 0
-        execute store result score @s umber.ArrowCountTipped run clear @s minecrft:tipped_arrow 0
+        execute store result score @s umber.ArrowCountTipped run clear @s minecraft:tipped_arrow 0
         execute store result score @s umber.ArrowCountSpectral run clear @s minecraft:spectral_arrow 0
 
     # 各種矢の数を合算

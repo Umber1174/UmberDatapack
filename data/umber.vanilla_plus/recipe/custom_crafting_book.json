@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:crafting_table"
+        },
+        {
+            "item": "minecraft:book"
+        }
+    ],
+    "result": {
+        "id": "minecraft:music_disc_11",
+        "components": {
+            "!minecraft:jukebox_playable": {},
+            "minecraft:custom_model_data": 11000,
+            "minecraft:item_name": "[{\"text\":\"カスタム作業本\"}]",
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 1
+        },
+        "count": 1
+    }
+}

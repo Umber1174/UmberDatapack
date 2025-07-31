@@ -6,9 +6,6 @@
         # bogged
             execute as @e[type=minecraft:bogged, tag=!umber.ability] unless data entity @s ArmorItems[3].id run function umber.mob_customize:ability/hostile/bogged/ability
 
-        # phantom
-            execute as @e[type=minecraft:phantom, tag=!umber.ability] unless data entity @s ArmorItems[3].id run function umber.mob_customize:ability/hostile/phantom/ability
-
         # skeleton
             execute as @e[type=minecraft:skeleton, tag=!umber.ability] unless data entity @s ArmorItems[3].id run function umber.mob_customize:ability/hostile/skeleton/ability
 

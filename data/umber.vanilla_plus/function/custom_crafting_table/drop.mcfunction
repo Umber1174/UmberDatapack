@@ -1,4 +1,4 @@
-#> vanilla_plus:custom_crafting_table/drop
+#> umber.vanilla_plus:custom_crafting_table/drop
 # ドロップ品の設定
 
 # 処理

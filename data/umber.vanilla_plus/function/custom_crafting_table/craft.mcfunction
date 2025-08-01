@@ -1,4 +1,4 @@
-#> vanilla_plus:custom_crafting_table/craft
+#> umber.vanilla_plus:custom_crafting_table/craft
 # カスタム作業台の作成
 
 # 処理

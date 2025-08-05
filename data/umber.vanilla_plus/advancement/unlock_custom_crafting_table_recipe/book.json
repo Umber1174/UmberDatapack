@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "get_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:book"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "umber.vanilla_plus:custom_crafting_book"
+        ]
+    }
+}

@@ -34,10 +34,3 @@
         execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:19b, id:"minecraft:music_disc_11",  components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}, count:1}]} run item replace block ~ ~ ~ container.19 with minecraft:air 1
         execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:20b, id:"minecraft:music_disc_11",  components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}, count:1}]} run item replace block ~ ~ ~ container.20 with minecraft:air 1
         execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:21b, id:"minecraft:music_disc_11",  components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}, count:1}]} run item replace block ~ ~ ~ container.21 with minecraft:air 1
-
-    # アイテムを削除
-        # UI用アイテムを削除（アイテム）
-            kill @e[type=minecraft:item, nbt={Item:{id:"minecraft:music_disc_11", components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}}}]
-
-        # UI用アイテムを削除（インベントリ）
-            clear @a[nbt={Inventory:[{id:"minecraft:music_disc_11", components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}}]}] minecraft:music_disc_11[!minecraft:jukebox_playable, minecraft:custom_model_data=10001, minecraft:hide_tooltip={}]

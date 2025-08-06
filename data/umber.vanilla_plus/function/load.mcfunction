@@ -17,3 +17,6 @@
 
         # スコア(umber.ArrowCounts)を作成
             scoreboard objectives add umber.ArrowCounts dummy
+
+        # タグ(umber.ArrowCounts)を削除
+            tag @a[tag=umber.ArrowCounts] remove umber.ArrowCounts

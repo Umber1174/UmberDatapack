@@ -12,6 +12,13 @@
         # カスタム作業台が壊れたとき
             execute as @e[type=minecraft:item_display, nbt={item:{id:"minecraft:music_disc_11", components:{"minecraft:custom_model_data":11000}}}] at @s unless block ~ ~ ~ minecraft:barrel[facing=down] run function umber.vanilla_plus:custom_crafting_table/broken
 
+        # アイテムを削除
+            # ドロップしたUI用アイテムを削除
+                kill @e[type=minecraft:item, nbt={Item:{id:"minecraft:music_disc_11", components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}}}]
+
+            # インベントリ内のUI用アイテムを削除
+                clear @a[nbt={Inventory:[{id:"minecraft:music_disc_11", components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}}]}] minecraft:music_disc_11[!minecraft:jukebox_playable, minecraft:custom_model_data=10001, minecraft:hide_tooltip={}]
+
     # title_arrowsフォルダ
         # 以下のアイテムを所持時、タグ(umber.ArrowCounts)を付与
             # 弓

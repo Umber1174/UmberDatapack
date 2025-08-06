@@ -33,7 +33,7 @@
 
 ## その他
 - 最新のUmberDatapackに関する作成者の感想について
-    - https://www.notion.so/UmberDatapack-2475d4406ff2807bb8dcedfaf435ef70?source=copy_link
+    - [https://www.notion.so/UmberDatapack-2475d4406ff2807bb8dcedfaf435ef70?source=copy_link](https://www.notion.so/UmberDatapack-2475d4406ff2807bb8dcedfaf435ef70?source=copy_link)
 
 - 注意事項
     - カスタムモデルデータに使用するアイテム

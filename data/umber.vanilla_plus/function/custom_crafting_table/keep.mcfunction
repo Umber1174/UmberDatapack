@@ -34,3 +34,14 @@
         execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:19b, id:"minecraft:music_disc_11",  components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}, count:1}]} run item replace block ~ ~ ~ container.19 with minecraft:air 1
         execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:20b, id:"minecraft:music_disc_11",  components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}, count:1}]} run item replace block ~ ~ ~ container.20 with minecraft:air 1
         execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:21b, id:"minecraft:music_disc_11",  components:{"!minecraft:jukebox_playable":{}, "minecraft:custom_model_data":10001, "minecraft:hide_tooltip":{}}, count:1}]} run item replace block ~ ~ ~ container.21 with minecraft:air 1
+
+    # レシピ用スロットにアイテムがあることを感知
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:1b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:2b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:3b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:10b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:11b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:12b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:19b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:20b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
+        execute as @s at @s if block ~ ~ ~ minecraft:barrel[facing=down]{Items:[{Slot:21b}]} run function umber.vanilla_plus:custom_crafting_table/recipe/check
